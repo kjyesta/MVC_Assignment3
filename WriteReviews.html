@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fuel Station Search</title>
+
+    <link rel="stylesheet" type="text/css" href="WriteReviews.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700,500"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <div class="bodybackground">
+       <div class="Navbar"> 
+            
+        <div class="Navbarleft">
+        <a class="navlinks" href="Index.html">HOME</a>
+        <a class="navlinks" href="FuelStations.html">FUEL STATIONS</a>
+        <a Class="navlinks" href="Maps.html">MAPS</a>
+         <a Class="active navlinks" href="Write Reviews.html">REVIEWS</a>
+        <a class="navlinks" href="AboutUs.html">ABOUT PROJECT</a>
+      </div>
+
+    <div class="tab" style="text-align:center;">
+    <form action="/action_page.php">   
+      <div>
+      <input class="search1" type="text" placeholder="Write Fuel Station Name" name="name">   
+      <input class="search2" type="text" placeholder="Write Fuel Station Address" name="email">  
+      <input class="search1" type="text" placeholder="Write your Name" name="name">   
+      <input class="search2" type="text" placeholder="Write your email id" name="email">  
+    </div>
+
+     <input class="Review" type="text" placeholder="Write your review here.." name="Review"> 
+     <div> 
+     <input class="submit" type="submit" value="Submit"> 
+     </div>
+     </form> 
+     <br>
+      <table id="t02">
+
+        <tr>
+          <th>Fuel Station Name</th> 
+          <th>Address</th>
+          <th>Name</th>
+          <th>Email ID</th>
+          <th>Review</th>
+          <th>Delete Review </th>
+
+        </tr>
+        <tr>
+          <td>Aurora Garage</td>
+          <td>777 S Harbour Island Blvd</td>
+          <td>Krishna</td>
+          <td>kjpjyesta@mail.usf.edu</td>
+          <td>Gas Station provides excellent customer service</td>
+          <td><input class="submit" type="button" value="Delete Review"></td>
+
+          
+        </tr>
+        <tr>
+          <td>2 Bayshore</td>
+          <td>111 South Jefferson Street</td>
+          <td>Girija</td>
+          <td>gbandarua@mail.usf.edu</td>
+          <td>People that work at this gas station are very pleasant. They also offer a free cup of coffee when you fill up car.</td>
+          <td><input class="submit" type="button" value="Delete Review"> </td>
+        </tr>
+</table>
+  </div>
+  </body>
+</html>

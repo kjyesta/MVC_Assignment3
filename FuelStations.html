@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FuelStations</title>
+
+    <link rel="stylesheet" type="text/css" href="FuelStations.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700,500"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <div class="bodybackground">
+    <div class="Navbar"> 
+            
+      <div class="Navbarleft">
+        <a class="navlinks" href="Index.html">HOME</a>
+        <a class="active navlinks" href="FuelStations.html">FUEL STATIONS</a>
+        <a Class="navlinks" href="Maps.html">MAPS</a>
+        <a Class="navlinks" href="WriteReviews.html">REVIEWS</a>
+        <a class="navlinks" href="AboutUs.html">ABOUT PROJECT</a>
+      </div>
+     
+    </div>
+
+
+
+    <div class="tab" style="text-align:center;">
+    <form action="/action_page.php">   
+     <input class="search" type="text" placeholder="Search here with Location.." name="search">   
+     <input type="radio" id="CNG" name="type" value="CNG" checked="checked">   
+     <label class="style"for="CNG">CNG</label>    
+     <input type="radio" id="EV" name="type" value="EV">   
+     <label class="style" for="EV">EV</label>   
+     <input class="submit" type="button" value="Submit"> 
+     </form> 
+     <br>
+      <table id="t01">
+
+        <tr>
+          <th>Fuel Station Name</th>
+          <th>Fuel Type</th>
+          <th>Distance In Miles</th>
+          <th>Fuel Station Availability</th>
+          <th>Hours Of Operations</th>  
+          <th>Address</th>
+          <th>City</th>
+          <th>ZIP</th>
+          <th>State</th>
+          <th>Country</th>
+          <th>Electric Vehicle Pricing</th>
+          <th>Electric Vehicle Network</th>
+          <th>Electric Vehicle Connector Type</th>
+
+        </tr>
+        <tr>
+          <td>Aurora Garage</td>
+          <td>ELEC</td>
+          <td>0.37292</td>
+          <td>E</td>
+          <td>24 hours daily</td>
+          <td>777 S Harbour Island Blvd</td>
+          <td>Tampa</td>
+          <td>33602</td>
+          <td>FL</td>
+          <td>US</td>
+          <td>FREE</td>
+          <td>SemaCharge Network</td>
+          <td>J1772</td>
+         
+          
+        </tr>
+        <tr>
+           <td>2 Bayshore</td>
+          <td>ELEC</td>
+          <td>0.48835</td>
+          <td>E</td>
+          <td>24 hours daily</td>
+          <td>111 South Jefferson Street</td>
+          <td>Tampa</td>
+          <td>33606</td>
+          <td>FL</td>
+          <td>US</td>
+          <td>$1.25/Hr Parking Fee , $0.25/kWh Energy Fee</td>
+          <td>SemaCharge Network</td>
+          <td>J1772</td>
+        </tr>
+
+        <tr>
+          <td>TAMPA HOUSING</td>
+          <td>ELEC</td>
+          <td>0.62793</td>
+          <td>E</td>
+          <td>24 hours daily</td>
+          <td>101 W Beach Place</td>
+          <td>Tampa</td>
+          <td>33602</td>
+          <td>FL</td>
+          <td>US</td>
+          <td>Free</td>
+          <td>Tesla Destination</td>
+          <td>J1772</td>
+        </tr>
+
+          <td>HIGHWOODS</td>
+          <td>ELEC</td>
+          <td>0.7362</td>
+          <td>E</td>
+          <td>24 hours daily</td>
+          <td>1155 E Kennedy Blvd</td>
+          <td>Tampa</td>
+          <td>33602</td>
+          <td>FL</td>
+          <td>US</td>
+          <td>Pricing is based on length of time and kWh used. $0 per hour for the first 4 hours, and $4 per additional hour, $0.75 per kWh</td>
+          <td>ChargePoint Network</td>
+          <td>J1772</td>
+       
+      </table>
+   
+    </div>
+  </body>
+</html>

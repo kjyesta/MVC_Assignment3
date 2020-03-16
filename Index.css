@@ -1,0 +1,72 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: black;
+  color: rgb(202, 202, 202);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+
+body h1 {
+  color: rgb(189, 82, 82);
+  font-size: 3vw;
+  letter-spacing: 3px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-decoration-line: underline;
+  text-underline-position: under;
+  margin-left: 4%;
+  margin-top: 3%;
+}
+.content {
+  color: rgb(133, 128, 128);
+  font-size: 2vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 7%;
+  padding-top: 6%;
+  width: 50%;
+}
+
+#bodyquote {
+  color: rgb(202, 202, 202);
+  font-size: 1.5vw;
+  width: 150%;
+  margin: 0;
+}
+
+
+.Navbar {
+  overflow: hidden;
+  align-self: auto;
+}
+
+.navlinks {
+  float: left;
+  color: #f2f2f2;
+  margin: 1% 2%;
+  padding: 6px 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.Navbar a:hover {
+  background-color: rgb(189, 82, 82);
+  color: black;
+  transition: 0.3s linear;
+}
+
+.Navbar a.active {
+  background-color: rgb(189, 82, 82);
+  color: white;
+}
+
+.bodybackground {
+    
+    padding: 2%;
+    background-image: url("logo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vw;
+    position: static;
+    margin: 0 1% 1% 1%;
+}
